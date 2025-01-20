@@ -12,7 +12,6 @@ Hello, my name is Tetiana Kravchuk<br>I am Software Developer III
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/tetianakravchuk/) 
 
 <div align="center"> 
   <a href="mailto:tetiana.kravchuk@gmail.com">
