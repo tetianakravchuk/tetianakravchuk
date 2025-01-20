@@ -14,6 +14,9 @@ Hello, my name is Tetiana. I am originally from Ukraine but have lived in Boston
 I have a background in technology, having worked in the tech industry for about 10 years. I have developed Python frameworks for web and mobile testing and have always been fascinated by exploring and analyzing data. I am pursuing a master's degree in Data Science at Boston University.
 
 
+Currently working on my portfolio for www.tetianakravchuk.com
+
+
 ## 🌐 Socials:
 
 <div align="center"> 
