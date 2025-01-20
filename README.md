@@ -8,7 +8,13 @@
 
 
 # 💫 About Me:
-Hello, my name is Tetiana Kravchuk<br>I am Software Developer III
+Hello, my name is Tetiana Kravchuk<be>
+
+I am Software Developer III
+
+Hello, my name is Tetiana. I am originally from Ukraine but have lived in Boston for 12 years. I enjoy going to the beach, biking, and reading thrillers. I love New England and try to explore it more each year, often checking out the New England rail trails to ride with my family and friends.
+
+I have a background in technology, having worked in the tech industry for about 10 years. I have developed Python frameworks for web and mobile testing and have always been fascinated by exploring and analyzing data. I am pursuing a master's degree in Data Science at Boston University.
 
 
 ## 🌐 Socials:
