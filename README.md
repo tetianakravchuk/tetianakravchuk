@@ -8,9 +8,6 @@
 
 
 # 💫 About Me:
-Hello, my name is Tetiana Kravchuk<be>
-
-I am Software Developer III
 
 Hello, my name is Tetiana. I am originally from Ukraine but have lived in Boston for 12 years. I enjoy going to the beach, biking, and reading thrillers. I love New England and try to explore it more each year, often checking out the New England rail trails to ride with my family and friends.
 
