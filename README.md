@@ -22,9 +22,7 @@ I’m actively building a portfolio of applied data science and ML projects, inc
 
 🔗 Portfolio (in progress): www.tetianakravchuk.com
 
-## 📊 GitHub Activity
-![](https://github-readme-stats.vercel.app/api?username=tetianakravchuk&show_icons=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tetianakravchuk&layout=compact)
+
 
 
 ## 🌐 Socials:
@@ -64,10 +62,9 @@ I’m actively building a portfolio of applied data science and ML projects, inc
 ![C%23](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-QA-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=tetianakravchuk&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=tetianakravchuk&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tetianakravchuk&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 📊 GitHub Activity
+![](https://github-readme-stats.vercel.app/api?username=tetianakravchuk&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tetianakravchuk&layout=compact)
 
 
 
