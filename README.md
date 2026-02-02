@@ -9,12 +9,18 @@
 
 # 💫 About Me:
 
-Hello, my name is Tetiana. I am originally from Ukraine but have lived in Boston for 12 years. I enjoy going to the beach, biking, and reading thrillers. I love New England and try to explore it more each year, often checking out the New England rail trails to ride with my family and friends.
+Hi, I’m Tetiana 👋  
 
-I have a background in technology, having worked in the tech industry for about 10 years. I have developed Python frameworks for web and mobile testing and have always been fascinated by exploring and analyzing data. I am pursuing a master's degree in Data Science at Boston University.
+I’m a software engineer with 10+ years in tech, currently transitioning into Data Science and Machine Learning. I’ve built Python frameworks for web and mobile test automation and now focus on data-driven systems, modeling, and decision-making.
 
+🎓 MS in Data Science (in progress) — Boston University  
+🐍 Python | Pandas | scikit-learn | ML | Data Analysis  
 
-Currently working on my portfolio for www.tetianakravchuk.com
+I’m actively building a portfolio of applied data science and ML projects, including work on real-world datasets, model evaluation, and product-focused analytics.
+
+🌍 Originally from Ukraine, based in Boston for 12 years. Outside of tech, I love exploring New England, rail trails, and reading Nordic Noir.
+
+🔗 Portfolio (in progress): www.tetianakravchuk.com
 
 
 ## 🌐 Socials:
