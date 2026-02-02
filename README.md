@@ -5,9 +5,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Tetiana+Kravchuk!;" />
 </h1>
 
-## 📊 GitHub Activity
-![](https://github-readme-stats.vercel.app/api?username=tetianakravchuk&show_icons=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tetianakravchuk&layout=compact)
+
 
 # 💫 About Me:
 
@@ -23,6 +21,10 @@ I’m actively building a portfolio of applied data science and ML projects, inc
 🌍 Originally from Ukraine, based in Boston for 12 years. Outside of tech, I love exploring New England, rail trails, and reading Nordic Noir.
 
 🔗 Portfolio (in progress): www.tetianakravchuk.com
+
+## 📊 GitHub Activity
+![](https://github-readme-stats.vercel.app/api?username=tetianakravchuk&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=tetianakravchuk&layout=compact)
 
 
 ## 🌐 Socials:
