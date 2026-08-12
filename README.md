@@ -11,9 +11,6 @@
   <a href="https://www.linkedin.com/in/tetianakravchuk/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-<p align="center">
-  <img src="cats-and-books.svg" alt="black cats watching books fly past" width="840">
-</p>
 ```console
 $ pytest tetiana/ -v --tb=short
 
@@ -66,9 +63,9 @@ well-named test case.
 
 ### 📌 Selected work
 
-**World Publishing Houses** — evaluation framework for LLM outputs. Scores generated claims
-against the sources they cite, so hallucination becomes a number you can regression-test
-instead of a thing someone notices in production.
+**[wph-llm-eval](https://github.com/tetianakravchuk/wph-llm-eval)** — evaluation framework for
+LLM outputs. Scores generated claims against the sources they cite, so hallucination becomes a
+number you can regression-test instead of a thing someone notices in production.
 
 → Full case studies at **[tetianakravchuk.com](https://tetianakravchuk.com)**
 
@@ -79,6 +76,8 @@ particularly where testing non-deterministic systems is the interesting part of 
 
 <sub>Currently: M.S. Data Science, AI & Machine Learning @ Boston University, 2026 · Boston, MA</sub>
 
----
+<p align="center">
+  <img src="cats-banner.svg" alt="black cats among books under the moon" width="900">
+</p>
 
 <sub>Off-hours: Nordic noir. The good kind, where the detective ends up worse off than the victim.</sub>
