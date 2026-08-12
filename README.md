@@ -1,31 +1,43 @@
 <h1 align="center">Tetiana Kravchuk</h1>
 
 <p align="center">
-  <b>AI Quality Engineer · Senior/Lead QA Automation · Boston, MA</b>
-</p>
-
-<p align="center">
   <a href="https://tetianakravchuk.com"><img src="https://img.shields.io/badge/Portfolio-tetianakravchuk.com-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/tetianakravchuk/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
+```console
+$ pytest tetiana/ -v --tb=short
+
+tetiana/experience.py::test_years_in_automation ....................... PASSED
+tetiana/experience.py::test_ships_to_regulated_fintech ................ PASSED
+tetiana/experience.py::test_finds_bug_before_user_does ................ PASSED
+tetiana/llm_eval.py::test_output_grounded_in_cited_source ............. PASSED
+tetiana/llm_eval.py::test_same_prompt_same_answer ..................... FAILED
+tetiana/llm_eval.py::test_model_admits_it_does_not_know ............... xfail
+tetiana/education.py::test_bu_masters_ds_ai_ml ........................ RUNNING
+
+======= 5 passed, 1 failed, 1 xfailed, 1 in progress =======
+
+FAILED test_same_prompt_same_answer
+  AssertionError: expected deterministic output, got a language model
+  → this is the whole job
+```
+
 ---
 
-I break software before your users do — and lately, I break language models too.
+### The failing test is the interesting one
 
-Ten-plus years in test automation. Currently building quality systems for advisor-facing
-financial products in wealthtech, where a rounding error is a compliance event. Most of my
-attention now goes to a harder problem: **how do you test something that doesn't give the
-same answer twice?**
+Ten-plus years breaking software before users get the chance. Currently building quality
+systems for advisor-facing financial products in wealthtech, where a rounding error is a
+compliance event.
 
-### 🔭 Currently
+These days most of my attention goes somewhere harder. Traditional test automation assumes
+the same input produces the same output — that assumption is the foundation everything else
+sits on, and generative AI takes it away. So I build evaluation harnesses that score what
+can't be asserted: **is this claim actually grounded in the source it cites? Did the model
+hedge when it should have, or invent when it shouldn't have?**
 
-- **LLM output evaluation** — building scoring harnesses for source-grounding, citation
-  accuracy, and factual consistency. Deterministic assertions don't survive contact with
-  generative output, so the test strategy has to change shape.
-- **M.S. Data Science, AI & Machine Learning** — Boston University, 2026
-- Test architecture for regulated fintech: custodian integrations, auth/RBAC, and the
-  edge cases that only ever surface in production
+That's the work. Not "does it return 200," but "is it *right*, and can I prove it at scale."
 
 ### 🧰 Stack
 
@@ -40,24 +52,23 @@ same answer twice?**
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 
-Plus REST Assured, TestNG, Sauce Labs, CI/CD pipelines, and an unreasonable fondness for
-a well-named test case.
+Plus REST Assured, TestNG, Sauce Labs, CI/CD pipelines, and an unreasonable fondness for a
+well-named test case.
 
 ### 📌 Selected work
 
-**[World Publishing Houses](https://github.com/tetianakravchuk)** — evaluation framework for
-LLM outputs. Measures whether generated claims are actually grounded in the sources cited.
-
-**[REPO NAME](https://github.com/tetianakravchuk)** — one line on the problem, one on the approach.
-
-**[REPO NAME](https://github.com/tetianakravchuk)** — one line on the problem, one on the approach.
+**World Publishing Houses** — evaluation framework for LLM outputs. Scores generated claims
+against the sources they cite, so hallucination becomes a number you can regression-test
+instead of a thing someone notices in production.
 
 → Full case studies at **[tetianakravchuk.com](https://tetianakravchuk.com)**
 
 ### 💬 Open to
 
-Conversations about AI quality engineering, LLM evaluation, and senior/lead QA automation
-roles — particularly where testing non-deterministic systems is the interesting part of the job.
+Conversations about AI quality engineering, LLM evaluation, and senior/lead QA automation —
+particularly where testing non-deterministic systems is the interesting part of the job.
+
+<sub>Currently: M.S. Data Science, AI & Machine Learning @ Boston University, 2026 · Boston, MA</sub>
 
 ---
 
