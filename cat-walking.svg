@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="900" height="130" role="img" aria-label="A black cat walks across the page and stretches at the end">
+
+<style>
+  .fur   { fill: #16171B; }
+  .far   { fill: #2E3037; }
+  .inner { fill: #C87F86; }
+  .eye   { fill: #F0902E; }
+  .nose  { fill: #E09AA2; }
+  .whisk { stroke: #8B949E; stroke-width: 1.1; stroke-linecap: round; fill: none; opacity: .6; }
+  .toe   { stroke: #34363E; stroke-width: 1.3; stroke-linecap: round; fill: none; }
+  .legN  { stroke: #16171B; stroke-width: 9;   stroke-linecap: round; fill: none; }
+  .legF  { stroke: #2E3037; stroke-width: 7.5; stroke-linecap: round; fill: none; }
+
+  .a { transform-box: fill-box; }
+
+  .travel { animation: travel 20s linear infinite; }
+  @keyframes travel {
+    0%   { transform: translateX(-150px); }
+    54%  { transform: translateX(700px); }
+    100% { transform: translateX(700px); }
+  }
+  .showWalk { animation: showWalk 20s linear infinite; }
+  @keyframes showWalk { 0%,52% { opacity: 1; } 56%,100% { opacity: 0; } }
+
+  .showStretch { animation: showStretch 20s linear infinite; }
+  @keyframes showStretch { 0%,55% { opacity: 0; } 59%,94% { opacity: 1; } 99%,100% { opacity: 0; } }
+
+  .reach { transform-origin: 0% 100%; animation: reach 20s ease-in-out infinite; }
+  @keyframes reach {
+    0%,57%  { transform: scaleX(1) scaleY(1); }
+    68%,84% { transform: scaleX(1.12) scaleY(.95); }
+    92%,100%{ transform: scaleX(1) scaleY(1); }
+  }
+  .tailup { transform-origin: 100% 100%; animation: tailup 20s ease-in-out infinite; }
+  @keyframes tailup {
+    0%,57%   { transform: rotate(0deg); }
+    68%,84%  { transform: rotate(-13deg); }
+    92%,100% { transform: rotate(0deg); }
+  }
+
+  .bob { transform-origin: 50% 100%; animation: bob .7s ease-in-out infinite; }
+  @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+
+  .lgA { transform-origin: 0% 0%;   animation: strideF 1.4s ease-in-out infinite; }
+  .lgB { transform-origin: 0% 0%;   animation: strideF 1.4s ease-in-out infinite -.7s; }
+  .lgC { transform-origin: 100% 0%; animation: strideR 1.4s ease-in-out infinite -.7s; }
+  .lgD { transform-origin: 100% 0%; animation: strideR 1.4s ease-in-out infinite; }
+  @keyframes strideF { 0%,100% { transform: rotate(20deg); } 50% { transform: rotate(-20deg); } }
+  @keyframes strideR { 0%,100% { transform: rotate(-17deg); } 50% { transform: rotate(17deg); } }
+
+  .pwA { transform-origin: 50% 0%; animation: levelF 1.4s ease-in-out infinite; }
+  .pwB { transform-origin: 50% 0%; animation: levelF 1.4s ease-in-out infinite -.7s; }
+  .pwC { transform-origin: 50% 0%; animation: levelR 1.4s ease-in-out infinite -.7s; }
+  .pwD { transform-origin: 50% 0%; animation: levelR 1.4s ease-in-out infinite; }
+  @keyframes levelF { 0%,100% { transform: rotate(-20deg); } 50% { transform: rotate(20deg); } }
+  @keyframes levelR { 0%,100% { transform: rotate(17deg); } 50% { transform: rotate(-17deg); } }
+
+  .tailsway { transform-origin: 100% 90%; animation: tsw 1.4s ease-in-out infinite; }
+  @keyframes tsw { 0%,100% { transform: rotate(-6deg); } 50% { transform: rotate(7deg); } }
+
+  .headbob { transform-origin: 0% 60%; animation: hb .7s ease-in-out infinite; }
+  @keyframes hb { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(1.5px) rotate(-1.5deg); } }
+
+  .blink { transform-origin: 50% 50%; animation: bl 5.6s ease-in-out infinite; }
+  @keyframes bl { 0%,93%,100% { transform: scaleY(1); } 96% { transform: scaleY(.1); } }
+
+  .earflick { transform-origin: 50% 100%; animation: ef 6.4s ease-in-out infinite; }
+  @keyframes ef { 0%,91%,100% { transform: rotate(0); } 94% { transform: rotate(-14deg); } 97% { transform: rotate(4deg); } }
+
+  @media (prefers-reduced-motion: reduce) { .a { animation: none !important; } }
+</style>
+
+<line x1="0" y1="118" x2="900" y2="118" stroke="#8B949E" stroke-width="1.5" opacity=".26"/>
+
+<g class="a showWalk">
+<g class="a travel">
+  <g transform="translate(0 118)">
+
+    <ellipse cx="-2" cy="1" rx="56" ry="5" fill="#16171B" opacity=".15"/>
+
+    <g transform="translate(20 -30)"><g class="a lgB">
+      <path class="legF" d="M0 0 C 1 8, 2 14, 2 21"/>
+      <g transform="translate(2 21)"><g class="a pwB">
+        <path class="far" d="M-5 0 L6 0 C 10 0, 11 5, 7 5 L-5 5 C -8 5, -8 0, -5 0 Z"/>
+      </g></g>
+    </g></g>
+    <g transform="translate(-34 -34)"><g class="a lgC">
+      <path class="legF" d="M0 0 C -2 6, -7 9, -6 14 C -5 18, -2 20, -1 24"/>
+      <g transform="translate(-1 24)"><g class="a pwC">
+        <path class="far" d="M-5 0 L6 0 C 10 0, 11 5, 7 5 L-5 5 C -8 5, -8 0, -5 0 Z"/>
+      </g></g>
+    </g></g>
+
+    <g class="a tailsway">
+      <path d="M-82 -70 C -90 -56, -78 -40, -54 -44" stroke="#16171B" stroke-width="9"
+            stroke-linecap="round" fill="none"/>
+    </g>
+
+    <g class="a bob">
+      <path class="fur" d="M-56 -44
+                           C -61 -58, -49 -67, -33 -65
+                           C -19 -63, -7 -58, 8 -57
+                           C 22 -56, 32 -58, 41 -54
+                           C 51 -50, 58 -48, 64 -48
+                           C 69 -48, 71 -41, 66 -37
+                           C 60 -33, 52 -30, 44 -29
+                           C 36 -27, 29 -26, 21 -26
+                           C 9 -26, -1 -34, -15 -37
+                           C -29 -39, -39 -37, -48 -39
+                           C -54 -41, -56 -42, -56 -44 Z"/>
+
+      <g class="a headbob">
+        <path class="fur" d="M62 -78 L59 -60 L74 -68 Z"/>
+        <g class="a earflick">
+          <path class="fur" d="M74 -80 L72 -60 L88 -68 Z"/>
+          <path class="inner" d="M76 -76 L75 -64 L84 -68 Z"/>
+        </g>
+        <ellipse class="fur" cx="76" cy="-56" rx="17" ry="15"/>
+        <path class="fur" d="M88 -52 C 99 -52, 102 -60, 94 -64 C 86 -66, 84 -56, 88 -52 Z"/>
+        <path class="fur" d="M66 -44 C 74 -42, 84 -44, 89 -50 C 84 -42, 74 -40, 66 -42 Z"/>
+        <g class="a blink">
+          <ellipse class="eye" cx="81" cy="-59" rx="4.6" ry="5.6"/>
+          <ellipse class="fur" cx="81" cy="-59" rx="1.6" ry="4.6"/>
+        </g>
+        <path class="nose" d="M97 -59 L102 -57 L97 -55 Z"/>
+        <path class="whisk" d="M99 -54 L116 -56 M99 -52 L116 -48 M99 -50 L114 -42"/>
+      </g>
+    </g>
+
+    <g transform="translate(32 -29)"><g class="a lgA">
+      <path class="legN" d="M0 0 C 1 9, 2 15, 2 22"/>
+      <g transform="translate(2 22)"><g class="a pwA">
+        <path class="fur" d="M-6 0 L7 0 C 11 0, 12 5.5, 8 5.5 L-6 5.5 C -9 5.5, -9 0, -6 0 Z"/>
+        <path class="toe" d="M3 5 L3 2 M7 4.6 L7 2"/>
+      </g></g>
+    </g></g>
+    <g transform="translate(-44 -33)"><g class="a lgD">
+      <path class="legN" d="M0 0 C -2 7, -8 10, -7 15 C -6 19, -2 21, -1 25"/>
+      <g transform="translate(-1 25)"><g class="a pwD">
+        <path class="fur" d="M-6 0 L7 0 C 11 0, 12 5.5, 8 5.5 L-6 5.5 C -9 5.5, -9 0, -6 0 Z"/>
+        <path class="toe" d="M3 5 L3 2 M7 4.6 L7 2"/>
+      </g></g>
+    </g></g>
+
+  </g>
+</g>
+</g>
+
+<g class="a showStretch">
+<g transform="translate(700 118)">
+  <ellipse cx="6" cy="1" rx="62" ry="5" fill="#16171B" opacity=".15"/>
+
+  <g class="a tailup">
+    <path d="M-84 -76 C -92 -60, -78 -48, -54 -52" stroke="#16171B" stroke-width="9"
+          stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g class="a reach">
+
+    <g transform="translate(-30 -50)">
+      <path class="legF" d="M0 0 C -2 8, -8 12, -7 18 C -6 24, -2 26, -1 31"/>
+      <path class="far" d="M-7 31 L4 31 C 8 31, 9 36, 5 36 L-7 36 C -10 36, -10 31, -7 31 Z"/>
+    </g>
+    <g transform="translate(-42 -52)">
+      <path class="legN" d="M0 0 C -2 9, -9 13, -8 19 C -7 26, -2 28, -1 33"/>
+      <path class="fur" d="M-8 33 L5 33 C 9 33, 10 38.5, 6 38.5 L-8 38.5 C -11 38.5, -11 33, -8 33 Z"/>
+      <path class="toe" d="M1 38 L1 35 M5 37.6 L5 35"/>
+    </g>
+
+    <path class="fur" d="M-52 -50
+                         C -58 -68, -44 -78, -28 -73
+                         C -12 -68, 2 -52, 18 -38
+                         C 28 -29, 40 -23, 52 -21
+                         C 60 -20, 62 -12, 55 -11
+                         C 43 -10, 30 -14, 20 -19
+                         C 6 -26, -10 -36, -24 -41
+                         C -38 -46, -48 -47, -52 -50 Z"/>
+
+    <g transform="translate(34 -26)">
+      <path class="legF" d="M0 0 C 8 4, 18 8, 27 11"/>
+      <path class="far" d="M25 8 L36 10 C 40 11, 39 16, 35 15 L23 13 C 20 12, 21 7, 25 8 Z"/>
+    </g>
+    <g transform="translate(38 -22)">
+      <path class="legN" d="M0 0 C 9 4, 20 8, 30 11"/>
+      <path class="fur" d="M28 7.5 L40 10 C 44 11, 43 16.5, 39 15.5 L26 13 C 23 12, 24 6.5, 28 7.5 Z"/>
+      <path class="toe" d="M34 14 L35 11 M38 14.8 L39 11.8"/>
+    </g>
+
+    <g>
+      <path class="fur" d="M50 -46 L50 -30 L64 -38 Z"/>
+      <path class="fur" d="M62 -48 L61 -30 L76 -38 Z"/>
+      <path class="inner" d="M64 -44 L63 -34 L72 -38 Z"/>
+      <ellipse class="fur" cx="66" cy="-27" rx="17" ry="14"/>
+      <path class="fur" d="M78 -24 C 89 -24, 92 -31, 84 -35 C 76 -37, 74 -28, 78 -24 Z"/>
+      <path class="fur" d="M56 -16 C 64 -14, 74 -16, 79 -22 C 74 -14, 64 -12, 56 -14 Z"/>
+      <path d="M63 -31 q 5 4 10 0" stroke="#8B949E" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+      <path class="nose" d="M87 -31 L92 -29 L87 -27 Z"/>
+      <path class="whisk" d="M89 -26 L106 -28 M89 -24 L106 -20 M89 -22 L104 -14"/>
+    </g>
+
+  </g>
+</g>
+</g>
+
+</svg>
