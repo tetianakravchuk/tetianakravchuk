@@ -13,13 +13,19 @@
 
 I break software before your users do — and lately, I break language models too.
 
-Ten-plus years in test automation. Currently building quality systems for advisor-facing financial products in wealthtech, where a rounding error is a compliance event. Most of my attention now goes to a harder problem: **how do you test something that doesn't give the same answer twice?**
+Ten-plus years in test automation. Currently building quality systems for advisor-facing
+financial products in wealthtech, where a rounding error is a compliance event. Most of my
+attention now goes to a harder problem: **how do you test something that doesn't give the
+same answer twice?**
 
 ### 🔭 Currently
 
-- **LLM output evaluation** — building scoring harnesses for source-grounding, citation accuracy, and factual consistency. Deterministic assertions don't survive contact with generative output, so the test strategy has to change shape.
+- **LLM output evaluation** — building scoring harnesses for source-grounding, citation
+  accuracy, and factual consistency. Deterministic assertions don't survive contact with
+  generative output, so the test strategy has to change shape.
 - **M.S. Data Science, AI & Machine Learning** — Boston University, 2026
-- Test architecture for regulated fintech: custodian integrations, auth/RBAC, and the edge cases that only ever surface in production
+- Test architecture for regulated fintech: custodian integrations, auth/RBAC, and the
+  edge cases that only ever surface in production
 
 ### 🧰 Stack
 
@@ -34,17 +40,24 @@ Ten-plus years in test automation. Currently building quality systems for adviso
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 
-Plus REST Assured, TestNG, Sauce Labs, CI/CD pipelines, and an unreasonable fondness for a well-named test case.
+Plus REST Assured, TestNG, Sauce Labs, CI/CD pipelines, and an unreasonable fondness for
+a well-named test case.
 
 ### 📌 Selected work
 
-**World Publishing Houses** — evaluation framework for LLM outputs. Measures whether generated claims are actually grounded in the sources cited.
+**[World Publishing Houses](https://github.com/tetianakravchuk)** — evaluation framework for
+LLM outputs. Measures whether generated claims are actually grounded in the sources cited.
+
+**[REPO NAME](https://github.com/tetianakravchuk)** — one line on the problem, one on the approach.
+
+**[REPO NAME](https://github.com/tetianakravchuk)** — one line on the problem, one on the approach.
 
 → Full case studies at **[tetianakravchuk.com](https://tetianakravchuk.com)**
 
 ### 💬 Open to
 
-Conversations about AI quality engineering, LLM evaluation, and senior/lead QA automation roles — particularly where testing non-deterministic systems is the interesting part of the job.
+Conversations about AI quality engineering, LLM evaluation, and senior/lead QA automation
+roles — particularly where testing non-deterministic systems is the interesting part of the job.
 
 ---
 
