@@ -31,6 +31,11 @@ FAILED test_same_prompt_same_answer
 
 ---
 
+<p align="center">
+  <img src="cat-walking.svg" alt="a black cat walking past" width="900">
+</p>
+
+
 ### The failing test is the interesting one
 
 Ten-plus years breaking software before users get the chance. Currently building quality
