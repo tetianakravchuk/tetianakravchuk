@@ -32,7 +32,7 @@ FAILED test_same_prompt_same_answer
 ---
 
 <p align="center">
-  <img src="cat-walking.svg" alt="a black cat walking past" width="900">
+  <img src="cat-walking.gif" alt="A black cat walking" width="900" />
 </p>
 
 
