@@ -32,7 +32,7 @@ FAILED test_same_prompt_same_answer
 ---
 
 <p align="center">
-  <img src="show_me-ezgif.com-video-to-gif-converter.mp4" alt="A black cat walking" width="900" />
+  <img src="show_me-ezgif.com-video-to-gif-converter.gif" alt="A black cat walking" width="900" />
 </p>
 
 
