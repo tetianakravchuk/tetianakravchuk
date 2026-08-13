@@ -88,3 +88,9 @@ particularly where testing non-deterministic systems is the interesting part of 
 <p align="center">
   <img src="nordic-noir.svg" alt="Off-hours: Nordic noir. The good kind, where the detective ends up worse off than the victim." width="900">
 </p>
+
+
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tetianakravchuk.tetianakravchuk" alt="Visitor Count" />
+</p>
