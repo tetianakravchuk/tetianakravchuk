@@ -82,7 +82,7 @@ particularly where testing non-deterministic systems is the interesting part of 
 <sub>Currently: M.S. Data Science, AI & Machine Learning @ Boston University, 2026 · Boston, MA</sub>
 
 <p align="center">
-  <img src="cats-banner.svg" alt="black cats among books under the moon" width="900">
+  <img src="make_one_to_stretch_another_on-ezgif.com-video-to-gif-converter.gif" alt="Black cats stretching and sleeping among books and flickering candles" width="900">
 </p>
 
 <p align="center">
