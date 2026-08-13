@@ -129,5 +129,9 @@ data-intensive AI products, and trustworthy production systems.
 </p>
 
 <p align="center">
+  <img src="make_one_to_stretch_another_on-ezgif.com-video-to-gif-converter.gif" alt="Black cats stretching and sleeping among books and flickering candles" width="900">
+</p>
+
+<p align="center">
   <img src="nordic-noir.svg" alt="Off-hours: Nordic noir. The good kind, where the detective ends up worse off than the victim." width="900">
 </p>
