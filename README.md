@@ -85,4 +85,6 @@ particularly where testing non-deterministic systems is the interesting part of 
   <img src="cats-banner.svg" alt="black cats among books under the moon" width="900">
 </p>
 
-<sub>Off-hours: Nordic noir. The good kind, where the detective ends up worse off than the victim.</sub>
+<p align="center">
+  <img src="nordic-noir.svg" alt="Off-hours: Nordic noir. The good kind, where the detective ends up worse off than the victim." width="900">
+</p>
