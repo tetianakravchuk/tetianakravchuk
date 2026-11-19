@@ -12,7 +12,6 @@
 <p align="center">
   <a href="https://tetianakravchuk.com"><img src="https://img.shields.io/badge/Portfolio-tetianakravchuk.com-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/tetianakravchuk/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:"><img src="https://img.shields.io/badge/Contact-Email-6B7280?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email"></a>
 </p>
 
 ## What I build
