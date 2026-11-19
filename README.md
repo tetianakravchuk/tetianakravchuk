@@ -80,7 +80,11 @@ M.S. in Data Science, AI & Machine Learning — Boston University, 2026. My soft
 I’m open to full-time, U.S.-remote opportunities in Applied AI Engineering, AI Evaluation, AI Platform and Reliability, and AI Observability.
 
 <p align="center">
-  <img src="cat-noir.svg" alt="A black cat in a Nordic noir mood" width="420">
+  <img src="show_me-ezgif.com-video-to-gif-converter.gif" alt="A black cat walking across the page" width="900">
+</p>
+
+<p align="center">
+  <img src="make_one_to_stretch_another_on-ezgif.com-video-to-gif-converter.gif" alt="Black cats stretching and sleeping among books and candles" width="900">
 </p>
 
 <p align="center">
